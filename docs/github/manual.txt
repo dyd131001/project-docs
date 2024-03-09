@@ -1,0 +1,45 @@
+명령어 모음
+https://eehoeskrap.tistory.com/666
+
+github commit convention
+https://kdjun97.github.io/git-github/commit-convention/
+
+git flow
+https://techblog.woowahan.com/2553/
+
+github 협업 예시
+https://velog.io/@rgfdds98/%EB%84%98%EB%B8%94-pull-request-merge-ft.-%ED%98%91%EC%97%85%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0
+
+초기 단계
+main , develop, feature branch 사용하기
+
+작업단위별 github 명령어
+
+
+새로운 기능 추가하기
+
+1. 원본 저장소 Fork
+2. git remote add <별명> <원본 저장소 url>
+3. git branch [브랜치명 (ex: feat/login) ]
+4. git switch [브랜치명 (ex: feat/login) ]
+5. 단위 기능 구현 및 테스트 코드 작성
+6. git add .
+7. git commit
+8. 템플릿에 맞는 commit 작성
+9. git push origin [브랜치명]
+모든 기능 구현이 끝난 경우
+(10.) 홈페이지에서 원본 develop branch에 pull request 보내기
+pull request가 반영된 경우
+(11.) git pull <별명>
+(12.) git switch develop
+(13.) git branch -D [브랜치명 (ex: feat/login) ]
+
+이 외 마주칠만한 문제들
+merge를 하지않고 계속 코드 작성
+https://velog.io/@jisubin12/Git-Merge%ED%95%98%EB%A9%B4%EC%84%9C-branch-%EC%82%AC%EB%9D%BC%EC%A1%8C%EC%9D%84%EB%95%8C-%EC%BB%A4%EB%B0%8B-%EB%B3%B5%EA%B5%AC-Reset%EA%B3%BC-Revert%EC%9D%98-%EC%B0%A8%EC%9D%B4
+
+푸쉬를 잘못한 경우
+https://junvelee.tistory.com/25
+
+파일을 잘못올린경우
+https://velog.io/@tritny6516/GitHub%EC%97%90-%EC%9E%98%EB%AA%BB-%EC%98%AC%EB%9D%BC%EA%B0%84-%ED%8C%8C%EC%9D%BC-%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0
